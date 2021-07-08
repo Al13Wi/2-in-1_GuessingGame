@@ -117,15 +117,15 @@ int main()
             }
             else if(abs(randomNumber - currentGuess) <= (upperBound / 20))
             {
-                std::cout << "\nHOT! The difference to the random number is " << (upperBound / 20) << " or less!";
+                std::cout << "HOT! The difference to the random number is " << (upperBound / 20) << " or less!";
             }
             else if(abs(randomNumber - currentGuess) <= (upperBound / 10))
             {
-                std::cout << "\nWarm! The difference to the random number is " << (upperBound / 10) << " or less!";
+                std::cout << "Warm! The difference to the random number is " << (upperBound / 10) << " or less!";
             }
             else if(abs(randomNumber - currentGuess) > (upperBound / 10))
             {
-                std::cout << "\nCold! The difference to the random number is more than " << (upperBound / 10) << "!";
+                std::cout << "Cold! The difference to the random number is more than " << (upperBound / 10) << "!";
             }
             numberOfGuesses++;
             score--;
@@ -242,7 +242,7 @@ int main()
                 }
             }
 
-            // Prime factor game
+            // Prime factors game
             std::cout << "\nYou must now guess the number of prime factors necessary to compute this number. To make it a little bit easier, your guess is considered to be correct even if it deviates by 1 from the correct answer.";
             std::cout << "\nWhat is your guess - what is the number of prime factors contained in the number " << randomNumber << "?";
             std::cout << "\nEnter your guess here: ";
