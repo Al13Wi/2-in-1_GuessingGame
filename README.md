@@ -1,0 +1,2 @@
+# GuessingGame
+This is a "2-in-1 guessing game". The user first needs to guess a random number in a specific range of values. The user can choose one of several options concerning the range of values and purchase hints that provide information about where the random number is located. Afterwards the user may participate in a second game in which the user must guess the number of prime factors that are necessary to compute the random number of the first game. 
