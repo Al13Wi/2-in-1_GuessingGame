@@ -1,5 +1,5 @@
-# GuessingGame
-This is a "2-in-1 guessing game". The player first needs to guess a random number in a specific range of values. The player can choose one of several options concerning the range of values and purchase hints that provide information about where the random number is located. Afterwards the player may participate in a second game in which the player must guess the number of prime factors that are necessary to compute the random number of the first game. 
+# "2-in-1" GuessingGame
+This is a "2-in-1" guessing game. The player first needs to guess a random number in a specific range of values. The player can choose one of several options concerning the range of values and purchase hints that provide information about where the random number is located. Afterwards the player may participate in a second game in which the player must guess the number of prime factors that are necessary to compute the random number of the first game. 
 
 **Guessing Game Part 1 - *Random Number***
 * In the first part of the game, the player must guess a number that is randomly allocated in a specific range of values
