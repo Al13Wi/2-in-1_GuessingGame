@@ -16,7 +16,7 @@ int main()
     while(true)
     {
         std::cout << "\n";
-        std::cout << "Choose one of three options to proceed.\n";
+        std::cout << "Enter '1', '2', or '3' to choose one of three options below to proceed.\n";
         std::cout << "Option 1:  the value range is   [0, 100],  the initial score is: 25\n";
         std::cout << "Option 2:  the value range is  [0, 1000],  the initial score is: 35\n";
         std::cout << "Option 3:  the value range is [0, 10000],  the initial score is: 50\n";
